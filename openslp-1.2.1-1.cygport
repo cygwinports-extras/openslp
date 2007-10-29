@@ -1,0 +1,7 @@
+DESCRIPTION="Service Location Protocol implementation"
+HOMEPAGE="http://www.openslp.org/"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
+
+DIFF_EXCLUDES="slpd.log slpd.pid"
+
+MAKEOPTS+=" DOC_DIR=/usr/share/doc/${P}"
